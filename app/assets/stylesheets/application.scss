@@ -12,5 +12,10 @@
  *
  *= require_tree .
  *= require_self
+ *= require notification
+
  */
-@import 'bootstrap'
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
